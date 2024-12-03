@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b90768e42e10458086d62be8eab2434a" Name="Diagram1" ZoomLevel="55">
+        <EntityTypeShape EntityType="chtoModel.Account" Width="1.5" PointX="10" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="chtoModel.Clients" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="chtoModel.Price" Width="1.5" PointX="5.25" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="chtoModel.Request" Width="1.5" PointX="7.5" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="chtoModel.Role_" Width="1.5" PointX="7.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="chtoModel.Service_" Width="1.5" PointX="3" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="chtoModel.Statuses" Width="1.5" PointX="5.25" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="chtoModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="chtoModel.Times" Width="1.5" PointX="5.25" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="chtoModel.Workers" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <AssociationConnector Association="chtoModel.FK__Account__id_role__398D8EEE" ManuallyRouted="false" />
+        <AssociationConnector Association="chtoModel.FK__Request__id_clie__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="chtoModel.FK__Times__id_client__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="chtoModel.FK__Price__id_servic__44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="chtoModel.FK__Request__id_pric__4E88ABD4" ManuallyRouted="false" />
+        <AssociationConnector Association="chtoModel.FK_Price_Service" ManuallyRouted="false" />
+        <AssociationConnector Association="chtoModel.FK__Request__id_serv__4D94879B" ManuallyRouted="false" />
+        <AssociationConnector Association="chtoModel.FK__Request__id_stat__4CA06362" ManuallyRouted="false" />
+        <AssociationConnector Association="chtoModel.FK__Request__id_time__4F7CD00D" ManuallyRouted="false" />
+        <AssociationConnector Association="chtoModel.FK__Request__id_work__4AB81AF0" ManuallyRouted="false" />
+        <AssociationConnector Association="chtoModel.FK__Service___id_wor__4222D4EF" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

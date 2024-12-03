@@ -1,0 +1,32 @@
+﻿<Window x:Class="dentistry.RefreshWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:dentistry"
+        mc:Ignorable="d"
+         Title="Обновление заявки" Height="500" Width="350">
+
+    <StackPanel Margin="10" >
+
+        <TextBlock Text="Клиент:"/>
+        <TextBox x:Name="ClientTextBox"/>
+
+        <TextBlock Text="Тип услуги:"/>
+        <ComboBox x:Name="TypeComboBox" DisplayMemberPath="name_service" SelectionChanged="TypeComboBox_SelectionChanged"/>
+
+        <TextBlock Text="Сотрудник:"/>
+        <ComboBox x:Name="WorkerComboBox" DisplayMemberPath="name_worker" IsEnabled="False" />
+
+        <TextBlock Text="Цена:"/>
+        <ComboBox x:Name="PriceComboBox" DisplayMemberPath="name_price" IsEnabled="False" />
+
+        <TextBlock Text="Статус:"/>
+        <ComboBox x:Name="StatusComboBox" DisplayMemberPath="name_status"/>
+
+        <TextBlock Text="Комментарий:"/>
+        <TextBox x:Name="DescriptionTextBox"/>
+
+        <Button Content="Обновить" Click="UpdateButton_Click" Background="gray"/>
+    </StackPanel>
+</Window>

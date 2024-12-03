@@ -1,0 +1,206 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u043A\u0443\u0440\u0441\u0430\u0447\\dentistry\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9EB2B97A-3625-4A66-85E0-A1E6EEDAD179}|dentistry\\dentistry.csproj|d:\\\u043A\u0443\u0440\u0441\u0430\u0447\\dentistry\\dentistry\\refreshwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EB2B97A-3625-4A66-85E0-A1E6EEDAD179}|dentistry\\dentistry.csproj|solutionrelative:dentistry\\refreshwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EB2B97A-3625-4A66-85E0-A1E6EEDAD179}|dentistry\\dentistry.csproj|D:\\\u043A\u0443\u0440\u0441\u0430\u0447\\dentistry\\dentistry\\refreshwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9EB2B97A-3625-4A66-85E0-A1E6EEDAD179}|dentistry\\dentistry.csproj|solutionrelative:dentistry\\refreshwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EB2B97A-3625-4A66-85E0-A1E6EEDAD179}|dentistry\\dentistry.csproj|D:\\\u043A\u0443\u0440\u0441\u0430\u0447\\dentistry\\dentistry\\addeditwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EB2B97A-3625-4A66-85E0-A1E6EEDAD179}|dentistry\\dentistry.csproj|solutionrelative:dentistry\\addeditwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EB2B97A-3625-4A66-85E0-A1E6EEDAD179}|dentistry\\dentistry.csproj|D:\\\u043A\u0443\u0440\u0441\u0430\u0447\\dentistry\\dentistry\\addeditwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9EB2B97A-3625-4A66-85E0-A1E6EEDAD179}|dentistry\\dentistry.csproj|solutionrelative:dentistry\\addeditwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EB2B97A-3625-4A66-85E0-A1E6EEDAD179}|dentistry\\dentistry.csproj|D:\\\u043A\u0443\u0440\u0441\u0430\u0447\\dentistry\\dentistry\\authorizationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9EB2B97A-3625-4A66-85E0-A1E6EEDAD179}|dentistry\\dentistry.csproj|solutionrelative:dentistry\\authorizationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EB2B97A-3625-4A66-85E0-A1E6EEDAD179}|dentistry\\dentistry.csproj|D:\\\u043A\u0443\u0440\u0441\u0430\u0447\\dentistry\\dentistry\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EB2B97A-3625-4A66-85E0-A1E6EEDAD179}|dentistry\\dentistry.csproj|solutionrelative:dentistry\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EB2B97A-3625-4A66-85E0-A1E6EEDAD179}|dentistry\\dentistry.csproj|D:\\\u043A\u0443\u0440\u0441\u0430\u0447\\dentistry\\dentistry\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9EB2B97A-3625-4A66-85E0-A1E6EEDAD179}|dentistry\\dentistry.csproj|solutionrelative:dentistry\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EB2B97A-3625-4A66-85E0-A1E6EEDAD179}|dentistry\\dentistry.csproj|D:\\\u043A\u0443\u0440\u0441\u0430\u0447\\dentistry\\dentistry\\authorizationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EB2B97A-3625-4A66-85E0-A1E6EEDAD179}|dentistry\\dentistry.csproj|solutionrelative:dentistry\\authorizationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EB2B97A-3625-4A66-85E0-A1E6EEDAD179}|dentistry\\dentistry.csproj|D:\\\u043A\u0443\u0440\u0441\u0430\u0447\\dentistry\\dentistry\\basemodel.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EB2B97A-3625-4A66-85E0-A1E6EEDAD179}|dentistry\\dentistry.csproj|solutionrelative:dentistry\\basemodel.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EB2B97A-3625-4A66-85E0-A1E6EEDAD179}|dentistry\\dentistry.csproj|D:\\\u043A\u0443\u0440\u0441\u0430\u0447\\dentistry\\dentistry\\properties\\authorization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EB2B97A-3625-4A66-85E0-A1E6EEDAD179}|dentistry\\dentistry.csproj|solutionrelative:dentistry\\properties\\authorization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EB2B97A-3625-4A66-85E0-A1E6EEDAD179}|dentistry\\dentistry.csproj|D:\\\u043A\u0443\u0440\u0441\u0430\u0447\\dentistry\\dentistry\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9EB2B97A-3625-4A66-85E0-A1E6EEDAD179}|dentistry\\dentistry.csproj|solutionrelative:dentistry\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 128,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\\u043A\u0443\u0440\u0441\u0430\u0447\\dentistry\\dentistry\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "dentistry\\MainWindow.xaml",
+              "ToolTip": "D:\\\u043A\u0443\u0440\u0441\u0430\u0447\\dentistry\\dentistry\\MainWindow.xaml",
+              "RelativeToolTip": "dentistry\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-14T14:55:42.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RefreshWindow.xaml.cs",
+              "DocumentMoniker": "D:\\\u043A\u0443\u0440\u0441\u0430\u0447\\dentistry\\dentistry\\RefreshWindow.xaml.cs",
+              "RelativeDocumentMoniker": "dentistry\\RefreshWindow.xaml.cs",
+              "ToolTip": "D:\\\u043A\u0443\u0440\u0441\u0430\u0447\\dentistry\\dentistry\\RefreshWindow.xaml.cs",
+              "RelativeToolTip": "dentistry\\RefreshWindow.xaml.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T17:48:31.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthorizationWindow.xaml.cs",
+              "DocumentMoniker": "D:\\\u043A\u0443\u0440\u0441\u0430\u0447\\dentistry\\dentistry\\AuthorizationWindow.xaml.cs",
+              "RelativeDocumentMoniker": "dentistry\\AuthorizationWindow.xaml.cs",
+              "ToolTip": "D:\\\u043A\u0443\u0440\u0441\u0430\u0447\\dentistry\\dentistry\\AuthorizationWindow.xaml.cs",
+              "RelativeToolTip": "dentistry\\AuthorizationWindow.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAgwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T18:31:02.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddEditWindow.xaml.cs",
+              "DocumentMoniker": "D:\\\u043A\u0443\u0440\u0441\u0430\u0447\\dentistry\\dentistry\\AddEditWindow.xaml.cs",
+              "RelativeDocumentMoniker": "dentistry\\AddEditWindow.xaml.cs",
+              "ToolTip": "D:\\\u043A\u0443\u0440\u0441\u0430\u0447\\dentistry\\dentistry\\AddEditWindow.xaml.cs",
+              "RelativeToolTip": "dentistry\\AddEditWindow.xaml.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAAE4AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T18:50:23.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\\u043A\u0443\u0440\u0441\u0430\u0447\\dentistry\\dentistry\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "dentistry\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\\u043A\u0443\u0440\u0441\u0430\u0447\\dentistry\\dentistry\\MainWindow.xaml.cs",
+              "RelativeToolTip": "dentistry\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAowJgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T14:55:40.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RefreshWindow.xaml",
+              "DocumentMoniker": "D:\\\u043A\u0443\u0440\u0441\u0430\u0447\\dentistry\\dentistry\\RefreshWindow.xaml",
+              "RelativeDocumentMoniker": "dentistry\\RefreshWindow.xaml",
+              "ToolTip": "D:\\\u043A\u0443\u0440\u0441\u0430\u0447\\dentistry\\dentistry\\RefreshWindow.xaml",
+              "RelativeToolTip": "dentistry\\RefreshWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-14T17:31:01.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddEditWindow.xaml",
+              "DocumentMoniker": "D:\\\u043A\u0443\u0440\u0441\u0430\u0447\\dentistry\\dentistry\\AddEditWindow.xaml",
+              "RelativeDocumentMoniker": "dentistry\\AddEditWindow.xaml",
+              "ToolTip": "D:\\\u043A\u0443\u0440\u0441\u0430\u0447\\dentistry\\dentistry\\AddEditWindow.xaml",
+              "RelativeToolTip": "dentistry\\AddEditWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-14T18:46:09.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Authorization.cs",
+              "DocumentMoniker": "D:\\\u043A\u0443\u0440\u0441\u0430\u0447\\dentistry\\dentistry\\Properties\\Authorization.cs",
+              "RelativeDocumentMoniker": "dentistry\\Properties\\Authorization.cs",
+              "ToolTip": "D:\\\u043A\u0443\u0440\u0441\u0430\u0447\\dentistry\\dentistry\\Properties\\Authorization.cs",
+              "RelativeToolTip": "dentistry\\Properties\\Authorization.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T18:25:22.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthorizationWindow.xaml",
+              "DocumentMoniker": "D:\\\u043A\u0443\u0440\u0441\u0430\u0447\\dentistry\\dentistry\\AuthorizationWindow.xaml",
+              "RelativeDocumentMoniker": "dentistry\\AuthorizationWindow.xaml",
+              "ToolTip": "D:\\\u043A\u0443\u0440\u0441\u0430\u0447\\dentistry\\dentistry\\AuthorizationWindow.xaml",
+              "RelativeToolTip": "dentistry\\AuthorizationWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-14T18:21:26.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\\u043A\u0443\u0440\u0441\u0430\u0447\\dentistry\\dentistry\\App.xaml",
+              "RelativeDocumentMoniker": "dentistry\\App.xaml",
+              "ToolTip": "D:\\\u043A\u0443\u0440\u0441\u0430\u0447\\dentistry\\dentistry\\App.xaml",
+              "RelativeToolTip": "dentistry\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-14T18:48:22.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BaseModel.Context.cs",
+              "DocumentMoniker": "D:\\\u043A\u0443\u0440\u0441\u0430\u0447\\dentistry\\dentistry\\BaseModel.Context.cs",
+              "RelativeDocumentMoniker": "dentistry\\BaseModel.Context.cs",
+              "ToolTip": "D:\\\u043A\u0443\u0440\u0441\u0430\u0447\\dentistry\\dentistry\\BaseModel.Context.cs",
+              "RelativeToolTip": "dentistry\\BaseModel.Context.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAewCsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T15:17:12.925Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

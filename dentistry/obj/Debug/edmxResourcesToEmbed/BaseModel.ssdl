@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище chtoModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Account">
+    <Key>
+      <PropertyRef Name="id_account" />
+    </Key>
+    <Property Name="id_account" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="logins" Type="nvarchar" MaxLength="50" />
+    <Property Name="passwords" Type="nvarchar" MaxLength="50" />
+    <Property Name="id_role" Type="int" />
+  </EntityType>
+  <EntityType Name="Clients">
+    <Key>
+      <PropertyRef Name="id_client" />
+    </Key>
+    <Property Name="id_client" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name_client" Type="varchar" MaxLength="300" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Price">
+    <Key>
+      <PropertyRef Name="id_price" />
+    </Key>
+    <Property Name="id_price" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name_price" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="id_service" Type="int" />
+  </EntityType>
+  <EntityType Name="Request">
+    <Key>
+      <PropertyRef Name="id_request" />
+    </Key>
+    <Property Name="id_request" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_worker" Type="int" />
+    <Property Name="id_client" Type="int" />
+    <Property Name="id_status" Type="int" />
+    <Property Name="id_service" Type="int" />
+    <Property Name="id_price" Type="int" />
+    <Property Name="id_time" Type="int" />
+    <Property Name="comments" Type="text" />
+  </EntityType>
+  <EntityType Name="Role_">
+    <Key>
+      <PropertyRef Name="id_role" />
+    </Key>
+    <Property Name="id_role" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name_role" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Service_">
+    <Key>
+      <PropertyRef Name="id_service" />
+    </Key>
+    <Property Name="id_service" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name_service" Type="varchar" MaxLength="300" Nullable="false" />
+    <Property Name="id_worker" Type="int" />
+    <Property Name="id_price" Type="int" />
+  </EntityType>
+  <EntityType Name="Statuses">
+    <Key>
+      <PropertyRef Name="id_status" />
+    </Key>
+    <Property Name="id_status" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name_status" Type="varchar" MaxLength="300" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Times">
+    <Key>
+      <PropertyRef Name="id_time" />
+    </Key>
+    <Property Name="id_time" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name_time" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="id_client" Type="int" />
+  </EntityType>
+  <EntityType Name="Workers">
+    <Key>
+      <PropertyRef Name="id_worker" />
+    </Key>
+    <Property Name="id_worker" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name_worker" Type="varchar" MaxLength="300" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__Account__id_role__398D8EEE">
+    <End Role="Role_" Type="Self.Role_" Multiplicity="0..1" />
+    <End Role="Account" Type="Self.Account" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Role_">
+        <PropertyRef Name="id_role" />
+      </Principal>
+      <Dependent Role="Account">
+        <PropertyRef Name="id_role" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Price__id_servic__44FF419A">
+    <End Role="Service_" Type="Self.Service_" Multiplicity="0..1" />
+    <End Role="Price" Type="Self.Price" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Service_">
+        <PropertyRef Name="id_service" />
+      </Principal>
+      <Dependent Role="Price">
+        <PropertyRef Name="id_service" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Request__id_clie__4BAC3F29">
+    <End Role="Clients" Type="Self.Clients" Multiplicity="0..1" />
+    <End Role="Request" Type="Self.Request" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Clients">
+        <PropertyRef Name="id_client" />
+      </Principal>
+      <Dependent Role="Request">
+        <PropertyRef Name="id_client" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Request__id_pric__4E88ABD4">
+    <End Role="Price" Type="Self.Price" Multiplicity="0..1" />
+    <End Role="Request" Type="Self.Request" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Price">
+        <PropertyRef Name="id_price" />
+      </Principal>
+      <Dependent Role="Request">
+        <PropertyRef Name="id_price" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Request__id_serv__4D94879B">
+    <End Role="Service_" Type="Self.Service_" Multiplicity="0..1" />
+    <End Role="Request" Type="Self.Request" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Service_">
+        <PropertyRef Name="id_service" />
+      </Principal>
+      <Dependent Role="Request">
+        <PropertyRef Name="id_service" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Request__id_stat__4CA06362">
+    <End Role="Statuses" Type="Self.Statuses" Multiplicity="0..1" />
+    <End Role="Request" Type="Self.Request" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Statuses">
+        <PropertyRef Name="id_status" />
+      </Principal>
+      <Dependent Role="Request">
+        <PropertyRef Name="id_status" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Request__id_time__4F7CD00D">
+    <End Role="Times" Type="Self.Times" Multiplicity="0..1" />
+    <End Role="Request" Type="Self.Request" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Times">
+        <PropertyRef Name="id_time" />
+      </Principal>
+      <Dependent Role="Request">
+        <PropertyRef Name="id_time" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Request__id_work__4AB81AF0">
+    <End Role="Workers" Type="Self.Workers" Multiplicity="0..1" />
+    <End Role="Request" Type="Self.Request" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Workers">
+        <PropertyRef Name="id_worker" />
+      </Principal>
+      <Dependent Role="Request">
+        <PropertyRef Name="id_worker" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Service___id_wor__4222D4EF">
+    <End Role="Workers" Type="Self.Workers" Multiplicity="0..1" />
+    <End Role="Service_" Type="Self.Service_" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Workers">
+        <PropertyRef Name="id_worker" />
+      </Principal>
+      <Dependent Role="Service_">
+        <PropertyRef Name="id_worker" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Times__id_client__47DBAE45">
+    <End Role="Clients" Type="Self.Clients" Multiplicity="0..1" />
+    <End Role="Times" Type="Self.Times" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Clients">
+        <PropertyRef Name="id_client" />
+      </Principal>
+      <Dependent Role="Times">
+        <PropertyRef Name="id_client" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Price_Service">
+    <End Role="Service_" Type="Self.Service_" Multiplicity="0..1" />
+    <End Role="Price" Type="Self.Price" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Service_">
+        <PropertyRef Name="id_service" />
+      </Principal>
+      <Dependent Role="Price">
+        <PropertyRef Name="id_service" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище chtoModelContainer">
+    <EntitySet Name="Account" EntityType="Self.Account" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Clients" EntityType="Self.Clients" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Price" EntityType="Self.Price" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Request" EntityType="Self.Request" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Role_" EntityType="Self.Role_" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Service_" EntityType="Self.Service_" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Statuses" EntityType="Self.Statuses" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Times" EntityType="Self.Times" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Workers" EntityType="Self.Workers" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Account__id_role__398D8EEE" Association="Self.FK__Account__id_role__398D8EEE">
+      <End Role="Role_" EntitySet="Role_" />
+      <End Role="Account" EntitySet="Account" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Price__id_servic__44FF419A" Association="Self.FK__Price__id_servic__44FF419A">
+      <End Role="Service_" EntitySet="Service_" />
+      <End Role="Price" EntitySet="Price" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Request__id_clie__4BAC3F29" Association="Self.FK__Request__id_clie__4BAC3F29">
+      <End Role="Clients" EntitySet="Clients" />
+      <End Role="Request" EntitySet="Request" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Request__id_pric__4E88ABD4" Association="Self.FK__Request__id_pric__4E88ABD4">
+      <End Role="Price" EntitySet="Price" />
+      <End Role="Request" EntitySet="Request" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Request__id_serv__4D94879B" Association="Self.FK__Request__id_serv__4D94879B">
+      <End Role="Service_" EntitySet="Service_" />
+      <End Role="Request" EntitySet="Request" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Request__id_stat__4CA06362" Association="Self.FK__Request__id_stat__4CA06362">
+      <End Role="Statuses" EntitySet="Statuses" />
+      <End Role="Request" EntitySet="Request" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Request__id_time__4F7CD00D" Association="Self.FK__Request__id_time__4F7CD00D">
+      <End Role="Times" EntitySet="Times" />
+      <End Role="Request" EntitySet="Request" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Request__id_work__4AB81AF0" Association="Self.FK__Request__id_work__4AB81AF0">
+      <End Role="Workers" EntitySet="Workers" />
+      <End Role="Request" EntitySet="Request" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Service___id_wor__4222D4EF" Association="Self.FK__Service___id_wor__4222D4EF">
+      <End Role="Workers" EntitySet="Workers" />
+      <End Role="Service_" EntitySet="Service_" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Times__id_client__47DBAE45" Association="Self.FK__Times__id_client__47DBAE45">
+      <End Role="Clients" EntitySet="Clients" />
+      <End Role="Times" EntitySet="Times" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Price_Service" Association="Self.FK_Price_Service">
+      <End Role="Service_" EntitySet="Service_" />
+      <End Role="Price" EntitySet="Price" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
